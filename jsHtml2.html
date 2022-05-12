@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="display: flex;">
+        <div style="width: 50%; display: flex ;  justify-content: center;">
+            <p id="p1"></p>
+        </div>
+        <div style="width: 50%;">
+            <p id="p2"></p>
+        </div>
+    </div>
+
+    <script>
+        for (var i = 0; i <= 10; i++) {
+            var p1_target = document.getElementById("p1");
+            var p2_target = document.getElementById("p2");
+
+            // var target = document.getElementById("ID");
+            // target.innerHTML += "<p>CONTENTS</p>";
+
+            p1_target.innerHTML += "<p>" + i + " " + "<p>";
+            p2_target.innerHTML += "<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloribus fugit! Saepe id quos asperiores illo ea tenetur eum atque accusamus. Natus, possimus praesentium! Maiores illo ex veritatis natus excepturi? </p>";
+        }
+    </script>
+</body>
+
+</html>

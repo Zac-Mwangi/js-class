@@ -1,0 +1,23 @@
+#sectBoutMe {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sectBoutMe>.boutme {
+    display: flex;
+}
+
+#sectBoutMe>.boutme>.leftside,
+.rightside {
+    width: 50%;
+}
+
+#sectBoutMe>.boutme>.leftside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sectBoutMe>.boutme>.rightside {
+    padding-right: 30px;
+}
