@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="sectBoutMe">
+        <div class="boutme">
+            <div class="leftside">
+                <p id="p1"></p>
+            </div>
+            <div class="rightside">
+                <p id="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore iure at, perferendis reprehenderit ex modi dolorum ad possimus omnis quis nostrum dignissimos provident itaque accusamus adipisci eaque atque eveniet nesciunt?</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        for (var i = 0; i <= 10; i++) {
+            var p1_target = document.getElementById("p1");
+            var p2_target = document.getElementById("p2");
+
+            p1_target.innerHTML += "<p></p>" + i;
+            p2_target.innerHTML += "<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, doloribus fugit! Saepe id quos asperiores illo ea tenetur eum atque accusamus. Natus, possimus praesentium! Maiores illo ex veritatis natus excepturi? </p>";
+        }
+    </script>
+
+</body>
+
+</html>
